@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Rohit/IdeaProjects/TestNg">
+        <classes>
+            <class name="org.example.APP1">
+                <methods>
+                    <include name="practice"/>
+                </methods>
+            </class>
+            <class name="org.example.App2">
+                <methods>
+                    <include name="trying"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="15855" started-at="2022-01-08T16:06:04 IST" finished-at="2022-01-08T16:06:20 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/Rohit/IdeaProjects/MakeMyTrip" duration-ms="15855" started-at="2022-01-08T16:06:04 IST" finished-at="2022-01-08T16:06:20 IST">
+      <class name="org.example.LoginApplication">
+        <test-method status="PASS" signature="application()[pri:0, instance:org.example.LoginApplication@38d8f54a]" name="application" duration-ms="7399" started-at="2022-01-08T16:06:12 IST" finished-at="2022-01-08T16:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- application -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.example.LoginApplication@38d8f54a]" name="teardown" is-config="true" duration-ms="198" started-at="2022-01-08T16:06:19 IST" finished-at="2022-01-08T16:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.example.LoginApplication -->
+      <class name="org.example.InspectingVisibleElements">
+        <test-method status="PASS" signature="login()[pri:0, instance:org.example.InspectingVisibleElements@293a5bf6]" name="login" is-config="true" duration-ms="7967" started-at="2022-01-08T16:06:04 IST" finished-at="2022-01-08T16:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ISpectingElement()[pri:0, instance:org.example.InspectingVisibleElements@293a5bf6]" name="ISpectingElement" duration-ms="105" started-at="2022-01-08T16:06:12 IST" finished-at="2022-01-08T16:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ISpectingElement -->
+        <test-method status="PASS" signature="tryout()[pri:0, instance:org.example.InspectingVisibleElements@293a5bf6]" name="tryout" is-config="true" duration-ms="135" started-at="2022-01-08T16:06:19 IST" finished-at="2022-01-08T16:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryout -->
+      </class> <!-- org.example.InspectingVisibleElements -->
+    </test> <!-- C:/Users/Rohit/IdeaProjects/MakeMyTrip -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
