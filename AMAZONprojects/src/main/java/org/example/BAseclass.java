@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 public class BAseclass {
     WebDriver driver;
     Properties prop;
-
     public WebDriver invokingDriver() throws IOException {
          prop=new Properties();
         FileInputStream fis=new FileInputStream("C:\\Users\\Rohit\\IdeaProjects\\AMAZONprojects\\src\\main\\java\\resources\\resources.properties");
@@ -23,7 +22,7 @@ public class BAseclass {
         String browserName=prop.getProperty("automationbrowser");
         if(browserName.equalsIgnoreCase("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\Rohit\\IdeaProjects\\chromedriver98\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver","C:\\Users\\Rohit\\IdeaProjects\\chromedriver98\\chromedriver.exe");
             driver=new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         }
