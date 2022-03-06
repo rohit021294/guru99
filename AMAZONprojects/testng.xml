@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test" parallel="tests">
+    <listeners>
+        <listener class-name="org.example.Listeners"/>
+    </listeners>
+  <test name=" test">
+    <classes>
+        <class name="org.example.AddingCartTest"/>
+        <class name="org.example.LoginApplication"/>
+        <class name="org.example.PractiseTest"/>
+        <class name="org.example.ReturnTest"/>
+        <class name="org.example.WindowHandles"/>
+        <class name="org.example.yOUTUBEsECONDeLEMENT"/>
+    </classes>
+</test>
+
+
+</suite>
